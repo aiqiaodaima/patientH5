@@ -1,0 +1,62 @@
+.booking_content{
+    display: block;
+    width:22.44rem;
+    height:13.19rem;
+    background:rgba(255,255,255,1);
+    border-radius: 0.5rem ; 
+    margin: 1rem auto 0;
+    padding: 1rem 1rem 0 1rem;
+}
+.booking_data{
+    height:0.94rem;
+    font-size:0.94rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(255,0,0,1);
+    line-height:0.94rem;
+}
+.booking_hospital{
+    margin-top: 0.5rem;
+    height:0.94rem;
+    font-size:0.94rem;
+    font-family:PingFangSC-Medium;
+    color:rgba(51,51,51,1);
+    line-height:0.94rem;
+}
+.booking_item{
+    margin-top: 0.5rem;
+}
+.booking_item span:nth-child(1){
+    height:0.94rem;
+    font-size:0.94rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(102,102,102,1);
+    line-height:0.94rem;
+    margin-right: 1.56rem;
+}
+.booking_item span:nth-child(2){
+    height:0.94rem;
+    font-size:0.94rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(51,51,51,1);
+    line-height:0.94rem;
+}
+.booking_item:last-child{
+    display: flex;
+}
+.item_one{
+    width:1.94rem;
+    height:1.13rem;
+    font-size:0.94rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(102,102,102,1);
+    line-height:1.13rem;
+    margin-right: 1.56rem;
+}
+.item_two{
+    width:16.94rem;
+    height:2.75rem;
+    font-size:0.94rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(51,51,51,1);
+    line-height:1.5rem;
+}

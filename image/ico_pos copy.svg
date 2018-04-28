@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_pos copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="医院主页" transform="translate(-16.000000, -223.000000)">
+            <rect id="bg" fill="#F2F2F2" x="0" y="0" width="375" height="667"></rect>
+            <g id="card" transform="translate(0.000000, 65.000000)">
+                <rect id="Rectangle-15" fill="#FFFFFF" x="0" y="0" width="375" height="188"></rect>
+                <g id="ico_pos" transform="translate(16.000000, 158.000000)" stroke="#333333">
+                    <path d="M8,14.3897877 C10.962963,10.5811433 12.4444444,7.85862148 12.4444444,6.22222222 C12.4444444,3.76762333 10.4545989,1.77777778 8,1.77777778 C5.54540111,1.77777778 3.55555556,3.76762333 3.55555556,6.22222222 C3.55555556,7.85862148 5.03703704,10.5811433 8,14.3897877 Z" id="Oval"></path>
+                    <circle id="Oval" cx="8" cy="6.22222222" r="2.66666667"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

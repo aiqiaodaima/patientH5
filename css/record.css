@@ -1,0 +1,115 @@
+.record_search{
+    display: flex;
+}
+.search_item{
+    width:18.69rem;
+    height:2.25rem;
+    background:rgba(255,255,255,1);
+    border-radius: 1.13rem ; 
+    margin: 1rem 0 1rem 0.5rem;
+   position: relative;
+}
+.search_sort{
+    width: 2.25rem;
+    height: 2.25rem;
+    margin: 1rem 0 1rem 1rem;
+}
+.record_content{
+    width:100%;
+    /* height:14.13rem; */
+    background:rgba(255,255,255,1);
+}
+.record_content ul li{
+    list-style: none;
+    width: 22.44rem;
+    height: 3.44rem;
+    margin-left: 1rem;
+    border-bottom: 1px solid #eaeaea;
+    display: flex;
+    align-items: center;
+}
+.my_input{
+    padding: 0.69rem 1rem 0.63rem 1rem;
+    display: inline-block;
+    width:18.69rem;
+    height:2.25rem;
+    background:rgba(255,255,255,1) !important;
+    border: 1px solid #eaeaea;
+    border-radius: 1.13rem; 
+    background:none;    
+    outline:none;    
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+    font-size:0.94rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(153,153,153,1);
+    line-height:0.94rem;
+}
+.search_item img{
+    position: absolute;
+    top: 0.40rem;
+    left: 0.88rem;
+}
+.content_item .content_img{
+    width: 2.31rem;
+    height: 2.31rem;
+}
+.content_item .content_word{
+    height:1.13rem;
+    font-size:1.13rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(51,51,51,1);
+    line-height:1.13rem;
+    margin-left: 1rem;
+}
+.content_item .content_touch{
+    width:1rem;
+    height:1rem;
+    border-radius: 50%;
+    border: 0.06rem solid #979797;
+    margin-left: 13.06rem;
+}
+.record_footer{
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    height:3.06rem;
+    background:rgba(255,255,255,1);
+    display: flex;
+}
+.footer_add{
+    margin-left: 5.38rem;
+}
+.footer_upload{
+    margin-left: 9.31rem;
+}
+.footer_item img{
+    width: 1.69rem;
+    height: 1.69rem;
+}
+.footer_item span{
+    width:1.44rem;
+    height:0.69rem;
+    font-size:0.69rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(51,51,51,1);
+    line-height:0.69rem;
+}
+.actionsheet-item{
+    display: block;
+    position: relative;
+    font-size: 0.875rem;
+    color: #555;
+    height: 3.2rem;
+    line-height: 3.2rem;
+    background-color: #FFF;
+}
+.actionsheet-action {
+    display: block;
+    margin-top: .47rem;
+    font-size: 0.875rem;
+    color: #555;
+    height: 3.2rem;
+    line-height: 3.2rem;
+    background-color: #FFF;
+}

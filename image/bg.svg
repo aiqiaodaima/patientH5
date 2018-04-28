@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="222px" viewBox="0 0 375 222" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="96.8659682%" id="linearGradient-1">
+            <stop stop-color="#1CB5E0" offset="0%"></stop>
+            <stop stop-color="#5B86E5" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="375" height="222"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#1CB5E0" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#96B4F6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#1CB5E0" offset="0%"></stop>
+            <stop stop-color="#96B4F6" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="我的资产" transform="translate(0.000000, -64.000000)">
+            <g id="bg" transform="translate(0.000000, 64.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                <circle id="Oval-15" fill="url(#linearGradient-4)" opacity="0.400022645" mask="url(#mask-3)" transform="translate(367.855981, 135.356107) rotate(-60.000000) translate(-367.855981, -135.356107) " cx="367.855981" cy="135.356107" r="110.274253"></circle>
+                <circle id="Oval-15" fill="url(#linearGradient-4)" opacity="0.400022645" mask="url(#mask-3)" transform="translate(2.198085, 152.198085) rotate(-105.000000) translate(-2.198085, -152.198085) " cx="2.19808523" cy="152.198085" r="56.5"></circle>
+                <circle id="Oval-15" fill="url(#linearGradient-5)" opacity="0.400022645" mask="url(#mask-3)" transform="translate(401.198085, 195.198085) rotate(-105.000000) translate(-401.198085, -195.198085) " cx="401.198085" cy="195.198085" r="56.5"></circle>
+                <circle id="Oval-15" fill="url(#linearGradient-4)" opacity="0.400022645" mask="url(#mask-3)" transform="translate(152.057826, 104.057826) rotate(-105.000000) translate(-152.057826, -104.057826) " cx="152.057826" cy="104.057826" r="110.274253"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

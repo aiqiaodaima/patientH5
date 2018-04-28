@@ -1,0 +1,49 @@
+.cell-item:not(:last-child):after{
+    margin-left:1rem;
+    border-bottom:1px solid #EAEAEA;
+}
+.cell-item{
+    height: 3.06rem;
+    /* padding-left: 1rem;
+    border: 1px solid #EAEAEA; */
+}
+.cell-left{
+    font-size:0.94rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(102,102,102,1);
+    line-height:0.94rem;
+    padding-left: 1rem;
+}
+.cell-right{
+    font-size:1.13rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(51,51,51,1);
+    line-height:1.13rem;
+    padding-right: 1rem;
+}
+.personContent{
+    margin: 0.5rem auto 0;
+    width:22.44rem;
+    height:3rem;
+    font-size:0.94rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(102,102,102,1);
+    line-height:1.5rem;
+}
+.person_button{
+    margin: 11.44rem auto 0;
+    width:16.44rem;
+    height:2.25rem;
+    background:rgba(91,134,229,1);
+    border-radius: 0.5rem ; 
+    font-size:0.94rem;
+    font-family:PingFangSC-Medium;
+    color:rgba(255,255,255,1);
+}
+.person_button a{
+    display: block;
+    height: 100%;
+    line-height:2.25rem;
+    text-align: center
+}
+

@@ -1,0 +1,64 @@
+.weui-flex_diagnose{
+    width: 100%;
+    height:8.63rem;
+    background:rgba(255,255,255,1);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.weui-flex_diagnose .photo{
+    margin: 1rem 0 0.5rem;
+    width:5rem;
+    height:5rem;
+    background:rgba(216,216,216,1);
+    border-radius: 50%;
+}
+.diagnose_name{
+    width:2.31rem;
+    height:1.13rem;
+    font-size:1.13rem;
+    font-family:PingFangSC-Medium;
+    color:rgba(51,51,51,1);
+    line-height:1.13rem;
+}
+.diagnose_room{
+    width:2.88rem;
+    height:0.94rem;
+    font-size:0.94rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(51,51,51,1);
+    line-height:0.94rem;
+}
+.diagnose_data{
+
+}
+.data_header{
+    height: 2.94rem;
+    font-size:0.94rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(51,51,51,1);
+    line-height:2.94rem;
+}
+.data_header span{
+    height:0.94rem;
+    font-size:0.94rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(51,51,51,1);
+    line-height:0.94rem;
+    margin-left: 1rem;
+}
+.data_header a{
+    width:1.75rem;
+    height:0.81rem;
+    font-size:0.81rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(91,134,229,1);
+    line-height:0.81rem;
+    margin-left: 5.5rem;
+}
+.data_content{
+    width:23.44rem;
+    height:12.44rem;
+    background:rgba(255,255,255,1);
+}

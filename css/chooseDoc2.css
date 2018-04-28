@@ -1,0 +1,52 @@
+.content_item{
+    width:100%;
+    height:7.63rem;
+    background:rgba(255,255,255,1);
+    display: flex;
+    margin-top: 1rem;
+}
+.content_item .item_img{
+    width:3.13rem;
+    height:3.13rem;
+    background:rgba(216,216,216,1);
+    border-radius: 50%;
+    margin: 1rem;
+}
+.content_item .item_word ul .word_name{
+    margin-top: 1.5rem;
+    height:0.94rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(51,51,51,1);
+    line-height:0.94rem;
+}
+.content_item .item_word ul .word_name span:nth-child(1){
+    font-size:0.94rem;
+    margin-right:0.5rem;
+}
+.content_item .item_word ul .word_name span:nth-child(2){
+    font-size:0.81rem;
+}
+.content_item .item_word ul .word_education{
+    height:0.81rem;
+    font-size:0.81rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(102,102,118,1);
+    line-height:0.81rem;
+    margin-top: 1rem;
+}
+.content_item .item_word ul .word_school{
+    height:0.81rem;
+    font-size:0.81rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(102,102,118,1);
+    line-height:0.81rem;
+    margin-top: 0.38rem;
+}
+.content_item .item_word ul .word_hospital{
+    margin-top: 0.38rem;
+    height:0.81rem;
+    font-size:0.81rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(102,102,118,1);
+    line-height:0.81rem;
+}

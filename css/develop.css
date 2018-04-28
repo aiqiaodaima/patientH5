@@ -1,0 +1,15 @@
+.develop_img{
+    margin: 2rem auto 0;
+    width: 17.81rem;
+    height: 22.94rem;
+}
+.develop_word{
+    text-align: center;
+    margin: 0.5rem auto 0;
+    width:7.44rem;
+    height:0.81rem;
+    font-size:0.81rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(51,51,51,1);
+    line-height:0.81rem;
+}

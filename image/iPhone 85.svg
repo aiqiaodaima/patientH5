@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="98px" viewBox="0 0 98 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>iPhone 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#5B86E5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="96.6740426%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#5B86E5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-261.000000, -371.000000)" stroke="#5B86E5">
+            <g id="Group-3" transform="translate(261.000000, 371.000000)">
+                <g id="ico_优惠措施">
+                    <g id="Group-7" transform="translate(12.000000, 12.000000)">
+                        <path d="M37,74 C16.5654643,74 0,57.4345357 0,37 C0,16.5654643 16.5654643,0 37,0 C57.4345357,0 74,16.5654643 74,37 C74,57.4345357 57.4345357,74 37,74 Z M14.0371593,18.5 C11.3638984,18.8135168 10.027268,20.14961 10.027268,22.5082795 C10.027268,26.0462839 14.0371593,27.0603192 14.0371593,30.051178 C14.0371593,33.0420368 10.027268,32.6728245 10.027268,36.421875 C10.027268,40.1709255 14.3221048,39.8761709 14.0371593,43.0281163 C13.7522137,46.1800618 8.97204867,45.9031721 9.26273238,49.6625886 C9.45652152,52.1688664 11.0479971,53.7292535 14.0371593,54.34375 L62.7559738,54.3439145 C63.3082585,54.3439145 63.7559738,53.8961992 63.7559738,53.3439145 L63.7559705,19.5 C63.7559705,18.9477153 63.3082552,18.5 62.7559705,18.5 L14.0371593,18.5 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+                        <text id="SALE" fill="url(#linearGradient-2)" font-family="PingFangSC-Semibold, PingFang SC" font-size="13" font-weight="500" line-spacing="15" letter-spacing="0.173333332">
+                            <tspan x="20.34375" y="42.921875">SALE</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

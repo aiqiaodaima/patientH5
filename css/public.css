@@ -1,0 +1,24 @@
+html {
+    font-size: 16px !important;
+}
+body{
+    height: 100%;
+    background:rgba(247,247,247,1);
+}
+.weui-flex .weui-flex_top{
+    height:1.25rem;
+    background:rgba(0,0,0,1);
+}
+.weui-flex .weui-flex_head,.navbar-center{
+    height:2.75rem;;
+    background:rgba(0,0,0,1);
+}
+.logo{
+    text-align: center;
+    height:1.13rem;
+    font-size:1.13rem;
+    font-family:PingFangSC-Medium;
+    color:rgba(255,255,255,1);
+    line-height:1.13rem;
+    margin: 0.75rem auto;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>医生集团</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/weui/1.1.2/style/weui.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/jquery-weui/1.2.0/css/jquery-weui.min.css">
+    <!-- <link rel="stylesheet" href="../css/index.css"> -->
+    <link rel="stylesheet" href="../css/ydui.css">
+    <!-- 通用样式 -->
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/chooseDoc2.css">
+</head>
+
+<body ontouchstart>
+    <div class="page__bd" style="height: 100%;">
+        <div class="weui-flex">
+            <div class="weui-flex__item weui-flex_top">top</div>
+        </div>
+        <div class="weui-flex">
+            <div class="weui-flex__item weui-flex_head">
+                <!-- <a href="#" class="navbar-item"><i class="back-ico"></i></a> -->
+                <div class="logo">选择医生</div>
+            </div>
+        </div>
+        <!-- 搜索 -->
+        <div class="weui-search-bar" id="searchBar">
+            <form class="weui-search-bar__form">
+                <div class="weui-search-bar__box">
+                    <i class="weui-icon-search"></i>
+                    <input type="search" class="weui-search-bar__input" id="searchInput" placeholder="搜索" required/>
+                    <a href="javascript:" class="weui-icon-clear" id="searchClear"></a>
+                </div>
+                <label class="weui-search-bar__label" id="searchText">
+                    <i class="weui-icon-search"></i>
+                    <span>搜索</span>
+                </label>
+            </form>
+            <a href="javascript:" class="weui-search-bar__cancel-btn" id="searchCancel">取消</a>
+        </div>
+       <div class="choose_content">
+            <div class="content_item">
+                <div class="item_img">
+                    <img src="" alt="">
+                </div>
+                <div class="item_word">
+                    <ul>
+                        <li class="word_name">
+                            <span>马莉莎</span>
+                            <span>齿科</span>
+                        </li>
+                        <li class="word_education">
+                            <span> 硕士学历 </span>
+                        </li>
+                        <li class="word_school">
+                            <span>英国皇家爱丁堡外科学院正畸专科</span>
+                            <span>院士</span>
+                        </li>
+                        <li class="word_hospital">
+                            <span>中山附属第一医院</span>
+                            <span>主任医师</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content_item">
+                    <div class="item_img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="item_word">
+                        <ul>
+                            <li class="word_name">
+                                <span>马莉莎</span>
+                                <span>齿科</span>
+                            </li>
+                            <li class="word_education">
+                                <span> 硕士学历 </span>
+                            </li>
+                            <li class="word_school">
+                                <span>英国皇家爱丁堡外科学院正畸专科</span>
+                                <span>院士</span>
+                            </li>
+                            <li class="word_hospital">
+                                <span>中山附属第一医院</span>
+                                <span>主任医师</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+       </div>
+
+    </div>
+</body>
+<script src="https://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery-weui/1.2.0/js/jquery-weui.min.js"></script>
+<script>
+    $(function(){
+       $(".content_left>li").on("click",function () {
+           $(this).addClass("active").siblings().removeClass("active")
+       })
+    });
+</script>
+</html>

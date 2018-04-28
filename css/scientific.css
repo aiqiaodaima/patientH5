@@ -1,0 +1,218 @@
+html {
+    font-size: 16px !important;
+}
+body{
+    height: 100%;
+    background:rgba(247,247,247,1);
+}
+.weui-flex .weui-flex_top{
+    height:1.25rem;
+    background:rgba(0,0,0,1);
+}
+.weui-navbar{
+    top: 1.25rem;
+    height:2.75rem;
+    background:rgba(0,0,0,1);   
+}
+.weui-navbar__item{
+    letter-spacing: 0.04rem;
+    text-align: left;
+    width:3.81rem;
+    padding:1rem 0.35rem 0;
+    height:0.94rem;
+    font-size:0.94rem;
+    font-family:PingFangSC-Medium;
+    color:rgba(255,255,255,0.5);
+    line-height:0.94rem;
+}
+.weui-navbar__item:nth-of-type(1){
+    text-align: right;
+}
+.weui-navbar__item:after{
+    border-right:none;
+}
+.weui-navbar__item.weui-bar__item--on {
+    letter-spacing: 0.04rem;
+    height:0.94rem;
+    font-size:0.94rem;
+    font-family:PingFangSC-Medium;
+    color:rgba(255,255,255,1);
+    
+    line-height:0.94rem;
+    background:rgba(0,0,0,1);  
+}
+.weui-navbar__item.weui-bar__item--on:after{
+    content: " ";
+    position: absolute;
+    right: 1.5rem;
+    top: 0;
+    /* border-radius:1px; */
+    bottom: 0;
+    width:3.38rem;
+    height:2.25rem;
+    color: #fff;
+    border-bottom: 0.13rem solid #fff;
+}
+.weui-navbar__item:last-child:after{
+    left: -0.3rem;
+    display: block;
+}
+/* 页面一 */
+.scientific_card{
+    display: block;
+    width: 22.44rem;
+    height: 10rem;
+    margin: 1rem auto 0;
+    border-radius: 2px;
+}
+.scientific_card img{
+    width: 100%;
+    height: 100%;
+}
+.scientific_apply{
+    margin: 2rem auto 0;
+    display: block;
+    width:16.44rem;
+    height:2.25rem;
+    background:rgba(91,134,229,1);
+    border-radius: 0.5rem ;
+    font-size:0.94rem;
+    font-family:PingFangSC-Medium;
+    color:rgba(255,255,255,1);
+    line-height:2.25rem; 
+    text-align: center
+}
+.weui-navbar+.weui-tab__bd{
+    padding-top: 2.75rem;
+}
+/* 页面二 */
+.my_scientific{
+    height:2.25rem;
+}
+.my_input{
+    margin: 1rem auto 0;
+    padding: 0.69rem 1rem 0.63rem 1rem;
+    display: block;
+    width:22.44rem;
+    height:2.25rem;
+    background:rgba(255,255,255,1) !important;
+    border: 1px solid #eaeaea;
+    border-radius: 1.13rem; 
+    background:none;    
+    outline:none;    
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+    font-size:0.94rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(153,153,153,1);
+    line-height:0.94rem;
+}
+.my_scientific span img{
+    display: inline-block;
+    position: relative;
+    top: -2rem;
+    left: 20.25rem;   
+}
+
+.my_card{
+    width:22.44rem;  
+    height:9.5rem;
+    background:rgba(255,255,255,1);
+    border-radius: 0.5rem ; 
+    box-shadow: 0 0.13rem 0.25rem 0 #979797;
+    margin: 1rem auto 1rem;
+}
+.card_item{
+    width:18.44rem;
+    height:0.94rem;
+    font-size:1.13rem;
+    font-family:PingFangSC-Medium;
+    color:#333;
+    line-height:0.94rem;
+    position: relative;
+}
+.card_Scientific{
+    display: block;
+    width:18.44rem;
+    height:0.94rem;
+    font-size:1.13rem;
+    font-family:PingFangSC-Medium;
+    /* font-weight: bold; */
+    letter-spacing:0.02rem;
+    
+    color:rgba(51,51,51,1);
+    line-height:0.94rem;
+    padding: 1rem 0 0 1rem;
+}
+.card_circle{
+    display: block;
+    width:4.5rem;
+    height:1.38rem;   
+    position: absolute;
+    right: -4.125rem;
+    top: 1rem;
+}
+.card_circle i{
+    font-size:0.88rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(255,255,255,1);
+    font-style: normal;
+    margin-left: 1.19rem;
+    line-height:1.38rem;
+}
+.yellow{
+    background:url(../image/label_yellow.png) no-repeat;
+}
+.green{
+    background:url(../image/label_green.png);
+}
+.blue{
+    background:url(../image/label_blue.png);
+}
+.scientific_hr{
+    margin-top: 0.5rem;
+    width:22.44rem;
+    height:0.13rem;
+    background-color: #EAEAEA;
+}
+.card_sort{
+    display: inline-block;
+    padding: 0.3rem 0.5rem 0 1rem;
+    height:0.94rem;
+    font-size:0.94rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(153,153,153,1);
+    line-height:0.94rem;
+}
+.card_sort2{
+    display: inline-block;
+    height:0.94rem;
+    font-size:0.94rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(153,153,153,1);
+    line-height:0.94rem;
+    padding-top: 0.3rem;
+}
+.bidder{
+    height:0.88rem;
+    font-size:0.94rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(102,102,102,1);
+    line-height:0.88rem;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+.bidder_message{
+    height:0.88rem;
+    font-size:0.94rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(51,51,51,1);
+    line-height:0.88rem;
+}
+.bidder_one{
+    margin-top: 1.06rem;
+}
+.card_bidder{
+    display: inline-block;
+    margin-right: 0.75rem;
+}

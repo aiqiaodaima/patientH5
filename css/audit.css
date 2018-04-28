@@ -1,0 +1,36 @@
+.audit_image{
+    width: 2.94rem;
+    height: 4.13rem;
+    margin: 2.44rem auto 0;
+}
+.audit_word{
+    width: 100%;
+    margin: 0.5rem auto 0;
+    height:1.13rem;
+    font-size:1.13rem;
+    font-family:PingFangSC-Medium;
+    color:rgba(110,214,67,1);
+    line-height:1.13rem;
+    text-align: center;
+}
+.audit_word2{
+    margin: 0.25rem auto 0;
+    width:21.44rem;
+    font-size:1.13rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(51,51,51,1);
+    line-height:1.56rem;
+}
+.audit_buttom a{
+    display: block;
+    margin: 4.31rem auto 0;
+    width:16.44rem;
+    height:2.25rem;
+    background:rgba(91,134,229,1);
+    border-radius: 0.5rem ;  
+    font-size:0.94rem;
+    font-family:PingFangSC-Medium;
+    color:rgba(255,255,255,1);
+    line-height:2.25rem;
+    text-align: center;
+}

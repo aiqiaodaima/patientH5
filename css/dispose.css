@@ -1,0 +1,114 @@
+ul li{
+    list-style: none;
+}
+.dispose_hospital{
+    height:7.38rem;
+    background:rgba(255,255,255,1);
+}
+.dispose_hospital ul li,.dispose_name ul li,.dispose_content ul li{
+    width: 100%;
+    height: 2.13rem;
+    display: flex;
+    padding: 1rem 0 0 1rem;
+}
+.dispose_hospital .hospital_left{
+    width:1.94rem;
+    height:1.13rem;
+    font-size:0.94rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(102,102,102,1);
+    line-height:1.13rem;
+}
+.dispose_hospital .hospital_right{
+    margin-left: 1.38rem;
+    height:1.13rem;
+    font-size:1.13rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(51,51,51,1);
+    line-height:1.13rem;
+}
+.dispose_hospital .hospital_time{  
+    color:rgba(255,0,0,1);  
+}
+.dispose_name{
+    width:100%;
+    height:9.5rem;
+    background:rgba(255,255,255,1);
+    margin-top: 1rem;
+}
+.dispose_name .name_right{
+    margin-left: 1.38rem;
+    height:1.13rem;
+    font-size:1.13rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(102,102,102,1);
+    line-height:1.13rem;
+}
+.dispose_content{
+    height:9.19rem;
+    background:rgba(255,255,255,1);
+    margin-top: 1rem;
+}
+.dispose_content .content_right{
+    margin-left: 1.38rem;
+    width:18.13rem;
+    height:4.5rem;
+    font-size:1.13rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(51,51,51,1);
+    line-height:1.5rem;
+}
+.dispose_content ul li:nth-child(1){
+    height: auto;
+    border-bottom: 1px solid #EAEAEA;
+}
+.dispose_note{
+    margin-top: 1rem;
+    width:100%;
+    height:3.06rem;
+    background:rgba(255,255,255,1);
+    padding: 1rem 0 0.94rem 1rem;
+    display: flex;
+}
+.note_word,.more_image{
+    display: block;
+    margin-left: 1.75rem;
+    font-size:0.94rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(153,153,153,1);
+    line-height:0.94rem;
+}
+.dispose_content .more_image{
+    margin-left: 18.75rem;
+}
+.note_word img{
+    float: right;
+    margin-left: 8.81rem;
+}
+.dispose_button{
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    height:3.06rem;
+    text-align: center;
+    font-size:1.13rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(255,255,255,1);
+    line-height:3.06rem;
+}
+.dispose_button ul{
+    display: flex;
+    width:100%;
+}
+.dispose_button ul li:nth-child(1) {
+    color: #333333;
+    width: 50%;
+    background:rgba(255,255,255,1);
+}
+.dispose_button ul li:nth-child(2) {
+    width: 50%;
+    background:rgba(91,134,229,1);
+}
+.more_image{
+
+}

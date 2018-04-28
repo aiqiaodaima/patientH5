@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_Upload</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="档案管理nor" transform="translate(-262.000000, -622.000000)" stroke="#333333">
+            <g id="ico_add" transform="translate(262.000000, 622.000000)">
+                <path d="M22,11 L22,20.1928571 C22,21.1909146 21.1988253,22 20.2105263,22 L6.78947368,22 C5.80117466,22 5,21.1909146 5,20.1928571 L5,11" id="Combined-Shape" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M13.6999374,16.2611326 C13.4682009,16.4206404 13.1715762,16.4406655 12.9268167,16.3225986 L13.2872205,16.6830024 L13.2872205,10.4833713 L13.2872205,16.6738494 L13.6999374,16.2611326 Z" id="Combined-Shape" transform="translate(13.262094, 10.949097) scale(1, -1) translate(-13.262094, -10.949097) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

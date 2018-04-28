@@ -1,0 +1,52 @@
+.balance_content{
+    background: url(../image/bg.svg);
+    height: 13.88rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.content_title{ 
+    height:0.94rem;
+    font-size:0.94rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(255,255,255,1);
+    line-height:0.94rem;
+    margin: 4rem 0 0.25rem;
+}
+.content_number{
+    height:3rem;
+    font-size:3rem;
+    font-family:PingFangSC-Medium;
+    color:rgba(255,255,255,1);
+    line-height:3rem;
+}
+.balance_button{
+    width:20.56rem;
+    height:3.13rem;
+    background:rgba(255,255,255,1);
+    border-radius: 0.5rem ; 
+    margin:-1.8rem auto 0;
+}
+.balance_button a{
+    display: inline-block;
+    width: 49%;
+    height:3.13rem;
+    text-align: center;
+}
+.button_left{
+    height:1.13rem;
+    font-size:1.13rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(51,51,51,1);
+    line-height:3.13rem;
+    border-right: 1px solid #EAEAEA;
+}
+.button_right{
+    height:1.13rem;
+    font-size:1.13rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(91,134,229,1);
+    line-height:3.13rem;
+}

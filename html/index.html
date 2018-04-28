@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>医生集团</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/weui/1.1.2/style/weui.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/jquery-weui/1.2.0/css/jquery-weui.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/ydui.css">
+</head>
+
+<body ontouchstart>
+    <div class="weui-tab container">
+        <div class="weui-tab__bd">
+            <!-- 页面一中的内容 -->
+            <div id="tab1" class="weui-tab__bd-item weui-tab__bd-item--active">
+                <div class="weui-flex">
+                    <div class="weui-flex__item weui-flex_top">top</div>
+                </div>
+                <div class="weui-flex">
+                    <div class="weui-flex__item weui-flex_head">
+                        <div class="logo">医生集团</div>
+                    </div>
+                </div>
+                <!-- 轮播图 -->
+                <!-- <div class="weui-flex">
+                    <div class="weui-flex__item weui-flex_Carousel">
+                        <img src="../image/banner.svg" alt="">
+                    </div>
+                </div> -->
+                <div class="m-slider" id="J_Slider">
+                    <div class="slider-wrapper">
+                        <div class="slider-item">
+                            <a href="#">
+                                <img src="../image/banner.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="slider-item">
+                            <a href="#">
+                                <img src="../image/banner.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="slider-item">
+                            <a href="#">
+                                <img src="../image/banner.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slider-pagination"></div><!-- 分页标识 -->
+                </div>
+                <!-- 九宫格 -->
+                <div class="weui-grids">
+                    <a href="scientific.html" class="weui-grid js_grid">
+                        <div class="weui-grid__icon">
+                            <img src="../image/iPhone 8.svg" alt="">
+                        </div>
+                        <p class="weui-grid__label">
+                            预约复诊
+                        </p>
+                    </a>
+                    <a href="science2.html" class="weui-grid js_grid">
+                        <div class="weui-grid__icon">
+                            <img src="../image/iPhone 81.svg" alt="">
+                        </div>
+                        <p class="weui-grid__label">
+                            病例管理
+                        </p>
+                    </a>
+                    <a href="develop.html" class="weui-grid js_grid">
+                        <div class="weui-grid__icon">
+                            <img src="../image/iPhone 82.svg" alt="">
+                        </div>
+                        <p class="weui-grid__label">
+                            十倍关爱
+                        </p>
+                    </a>
+                    <a href="develop.html" class="weui-grid js_grid">
+                        <div class="weui-grid__icon">
+                            <img src="../image/iPhone 83.svg" alt="">
+                        </div>
+                        <p class="weui-grid__label">
+                            病情咨询
+                        </p>
+                    </a>
+                    <a href="record.html" class="weui-grid js_grid">
+                        <div class="weui-grid__icon">
+                            <img src="../image/iPhone 84.svg" alt="">
+                        </div>
+                        <p class="weui-grid__label">
+                            寻医问药
+                        </p>
+                    </a>
+                    <a href="diagnose.html" class="weui-grid js_grid">
+                        <div class="weui-grid__icon">
+                            <img src="../image/iPhone 85.svg" alt="">
+                        </div>
+                        <p class="weui-grid__label">
+                            优惠措施
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <!-- 页面二中的内容 -->
+            <div id="tab2" class="weui-tab__bd-item">
+                <div class="weui-flex">
+                    <div class="weui-flex__item weui-flex_top">top</div>
+                </div>
+                <div class="weui-flex">
+                    <div class="weui-flex__item weui-flex_head">
+                        <div class="logo">医生集团</div>
+                    </div>
+                </div>
+                <div class="weui-flex">
+                    <div class="weui-flex__item weui-flex_me">
+                        <div class="photo">
+                            <img src="" alt="">
+                        </div>
+                        <div class="name">
+                            熊哥
+                        </div>
+                        <div class="attestation">
+                            未实名认证
+                        </div>
+                    </div>
+                </div>
+                <div class="weui-panel weui-panel_access">
+                    <div class="weui-panel__ft">
+                        <a href="Certification.html" class="weui-cell weui-cell_access weui-cell_link">
+                            <div class="weui-cell__bd">实名认证</div>
+                            <span class="weui-cell__ft"></span>
+                        </a>
+                        <div class="weui-panel__ft">
+                            <a href="javascript:void(0);" class="weui-cell weui-cell_access weui-cell_link">
+                                <div class="weui-cell__bd">科研课题</div>
+                                <span class="weui-cell__ft"></span>
+                            </a>
+                        </div>
+                        <div class="weui-panel__ft">
+                            <a href="javascript:void(0);" class="weui-cell weui-cell_access weui-cell_link">
+                                <div class="weui-cell__bd">病例管理</div>
+                                <span class="weui-cell__ft"></span>
+                            </a>
+                        </div>
+                        <div class="weui-panel__ft">
+                            <a href="javascript:void(0);" class="weui-cell weui-cell_access weui-cell_link">
+                                <div class="weui-cell__bd">我的预约</div>
+                                <span class="weui-cell__ft"></span>
+                            </a>
+                        </div>
+                        <div class="weui-panel__ft">
+                            <a href="javascript:void(0);" class="weui-cell weui-cell_access weui-cell_link">
+                                <div class="weui-cell__bd">我的余额</div>
+                                <span class="weui-cell__ft"></span>
+                            </a>
+                        </div>
+                        <div class="weui-panel__ft">
+                            <a href="javascript:void(0);" class="weui-cell weui-cell_access weui-cell_link">
+                                <div class="weui-cell__bd">我的医生</div>
+                                <span class="weui-cell__ft"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+        <!-- 底部 -->
+        <div class="weui-tabbar">
+            <!-- <a href="javascript:;" class="weui-tabbar__item weui-bar__item--on">
+                <span class="weui-badge" style="position: absolute;top: -.4em;right: 1em;">8</span>
+                <div class="weui-tabbar__icon">
+                <img src="./images/icon_nav_button.png" alt="">
+                </div>
+                <p class="weui-tabbar__label">微信</p>
+            </a> -->
+            <a href="#tab1" class="weui-tabbar__item weui-bar__item--on">
+                <div class="weui-tabbar__icon">
+                    <img src="../image/tabbar_ico_home_pre.png" alt="">
+                </div>
+                <p class="weui-tabbar__label">首页</p>
+            </a>
+            <a href="#tab2" class="weui-tabbar__item">
+                <div class="weui-tabbar__icon">
+                    <img src="../image/tabbar_ico_me_nor.png" alt="">
+                </div>
+                <p class="weui-tabbar__label">我的</p>
+            </a>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery-weui/1.2.0/js/jquery-weui.min.js"></script>
+<script src="../js/ydui.js"></script>
+<script>    
+    $(function(){
+        /**
+        * 改变底部图标颜色 应该给每个图标增加calss
+        *
+        */
+        console.log( $('.weui-tabbar__item')[0])
+        $('.weui-tabbar__item').on('click', function () {
+            if (this == $('.weui-tabbar__item')[0]) {
+                $(this).find('img').attr('src','../image/tabbar_ico_home_pre.png');
+                $(this).siblings().find('img').attr('src','../image/tabbar_ico_me_nor.png');
+            } else {
+                console.log($(this))
+                $(this).find('img').attr('src','../image/tabbar_ico_me_pre.png');
+                $(this).siblings().find('img').attr('src','../image/tabbar_ico_home_nor.png');
+            }
+        });
+        $('#J_Slider').slider({
+            speed: 500,
+            autoplay: 2000,
+            lazyLoad: true
+        });
+    });
+
+</script>
+</html>

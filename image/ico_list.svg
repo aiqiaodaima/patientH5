@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_list</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="档案管理nor" transform="translate(-323.000000, -80.000000)">
+            <g id="ico_list" transform="translate(323.000000, 80.000000)">
+                <rect id="Rectangle-6" stroke="#333333" x="4.5" y="4.5" width="27" height="27" rx="1"></rect>
+                <polyline id="Combined-Shape" fill="#333333" fill-rule="nonzero" points="22 26.9298487 21 26.9298487 21 11.9637062 21 9 27.5083887 16.0619193 26.8012819 16.7690261 22 11.9677442"></polyline>
+                <polyline id="Combined-Shape" fill="#333333" fill-rule="nonzero" transform="translate(13.254194, 17.964924) scale(-1, -1) translate(-13.254194, -17.964924) " points="11 26.9298487 10 26.9298487 10 11.9637062 10 9 16.5083887 16.0619193 15.8012819 16.7690261 11 11.9677442"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

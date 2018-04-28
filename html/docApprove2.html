@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>医生集团</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/weui/1.1.2/style/weui.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/jquery-weui/1.2.0/css/jquery-weui.min.css">
+    <!-- <link rel="stylesheet" href="../css/index.css"> -->
+    <link rel="stylesheet" href="../css/ydui.css">
+    <!-- 通用样式 -->
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/docApprove.css">
+</head>
+
+<body ontouchstart>
+    <div class="page__bd" style="height: 100%;">
+        <div class="weui-flex">
+            <div class="weui-flex__item weui-flex_top">top</div>
+        </div>
+        <div class="weui-flex">
+            <div class="weui-flex__item weui-flex_head">
+                <div class="logo">医师身份认证</div>
+            </div>
+        </div>
+        <div class="docApprove_header">
+            第二步 医生职业信息
+        </div>
+        <div class="docApprove_body">
+            <div class="body_title" style="margin-top: 0.5rem">
+                <span>*</span>
+                <span>目前所在医院</span>
+            </div>
+            <input type="text" placeholder="请输入目前所在医院" class="name_input" style="margin-bottom: 0">
+            <div class="two_title">
+                <div class="title_one">
+                    <div class="body_title">
+                        <span>*</span>
+                        <span>所在科室</span>
+                    </div>
+                    <input type="text" placeholder="请输入科室">
+                </div>
+                <div class="title_two">
+                    <div class="body_title">
+                        <span>*</span>
+                        <span>职称</span>
+                    </div>
+                    <!-- 待修改部分 -->
+                    <select>
+                        <option selected="selected" disabled="disabled">请选择职称</option>
+                        <option>主任医师</option>
+                        <option>副主任医师</option>
+                    </select>
+                </div>
+            </div>
+            <div class="body_title" style="margin-top: 1rem">
+                <span>*</span>
+                <span>联系地址</span>
+            </div>
+            <input type="text" placeholder="请输入地址" class="name_input" style="margin-bottom: 0">
+            <div class="body_title" style="margin-top: 1rem">
+                <span>*</span>
+                <span>联系电话</span>
+            </div>
+            <input type="text" placeholder="请输入电话" class="name_input" style="margin-bottom: 0">
+            <div class="phone_button">
+                <div class="button_1">
+                    <input type="text" placeholder="请输入验证码">
+                </div>
+                <div class="button_2">
+                    获取验证码
+                </div>
+            </div>
+            <div class="body_title" style="margin-top: 1rem">
+                <span>*</span>
+                <span>邮箱</span>
+            </div>
+            <input type="text" placeholder="请输入邮箱" class="name_input" style="margin-bottom: 0">
+            <div class="submit_button">
+                <a href="audit.html">确认提交</a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery-weui/1.2.0/js/jquery-weui.min.js"></script>
+<script src="../js/ydui.citys.js"></script>
+<script src="../js/ydui.js"></script>
+<script>
+    $(function(){
+        var $address = $('#J_Address');
+
+        $address.citySelect();
+
+        $address.on('click', function () {
+            $address.citySelect('open');
+        });
+
+        $address.on('done.ydui.cityselect', function (ret) {
+            /* 省：ret.provance */
+            /* 市：ret.city */
+            /* 县：ret.area */
+            $(this).val(ret.provance + ' ' + ret.city + ' ' + ret.area);
+        });
+    });
+</script>
+</html>
