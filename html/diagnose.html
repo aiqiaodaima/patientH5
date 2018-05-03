@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>实名认证</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/weui/1.1.2/style/weui.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/jquery-weui/1.2.0/css/jquery-weui.min.css">
+    <!-- <link rel="stylesheet" href="../css/index.css"> -->
+    <link rel="stylesheet" href="../css/ydui.css">
+    <!-- 通用样式 -->
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/diagnose.css">
+</head>
+
+<body ontouchstart>
+    <div class="page__bd" style="height: 100%;">
+        <div class="weui-flex">
+            <div class="weui-flex__item weui-flex_diagnose">
+                <div class="photo">
+                    <img src="" alt="">
+                </div>
+                <div class="name">
+                   <span class="diagnose_name">张三</span>
+                   <span class="diagnose_room">正畸科</span>
+                </div>
+                <div class="diagnose_hospital">
+                    中山大学附属第三医院
+                </div>
+            </div>
+        </div>
+        <div class="diagnose_data">
+            <div class="data_header">
+                <div class="header_left">预约日期（点击日期，即可预约）</div>
+                <a href="javascript:void(0)">预约</a>
+            </div>
+            <div class="data_month">
+                <a href="javascript:void(0)" class="prev_month">&lt;</a>
+                <div class="month_word"></div>
+                <a href="javascript:void(0)" class="next_month">&gt;</a>
+            </div>
+            <div class="data_content">
+                <ul class="content_week">
+                    <li>日</li>
+                    <li>一</li>
+                    <li>二</li>
+                    <li>三</li>
+                    <li>四</li>
+                    <li>五</li>
+                    <li>六</li>
+                </ul>
+                <ul class="content_day">
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery-weui/1.2.0/js/jquery-weui.min.js"></script>
+<script>
+    $(function(){
+        function createMonthDay(j) {
+            let daysOfMonth = [];
+            let year_month = "";
+            let fullYear = new Date().getFullYear();
+            let today = new Date().getDate();
+            console.log(today)
+            var month = new Date().getMonth() + 1 + j;
+            let day = new Date(fullYear,month-1,1).getDay();
+            let num = day==0?7:day;
+            console.log(num)
+            for (let i = 1; i <= num-1;i++){
+                let lis = document.createElement("li");
+                lis.setAttribute("class","day_none")
+                $(".content_day").append(lis)
+            } 
+            var month = month<10?"0"+month:month;
+            let lastDayOfMonth = new Date(fullYear, month, 0).getDate();
+            for (let i = 1; i <= lastDayOfMonth; i++) {
+                let lis = document.createElement("li");
+                lis.setAttribute("class","day_have") 
+                if(i==today){
+                    lis.setAttribute("class","toady_have");
+                    // lis.setAttribute("class","day_have");
+                    
+                }
+                let spans = document.createElement("span");
+                spans.innerHTML = i;
+                let as = document.createElement("a");
+                as.innerHTML = radromObject()
+                lis.appendChild(spans);
+                lis.appendChild(as);
+                $(".content_day").append(lis)
+                daysOfMonth.push(fullYear + '-' + month + '-' + i);
+                year_month = `${fullYear}年${month}月`
+                $(".month_word").html(`${fullYear}年${month}月`);
+            };
+            // 显示今天
+            
+            return{
+                daysOfMonth:daysOfMonth,
+                year_month:year_month
+            }
+            // return daysOfMonth;
+        }
+        function radromObject() {
+            const arr1 = ["坐诊","休诊","约满"];
+            let j = Math.random() * arr1.length; // 获取随机的下标值
+            j = ~~j; // 取整
+            return arr1[j]; 
+        }
+        console.log(radromObject())
+        let num = 0; 
+        createMonthDay(num)
+        $(".next_month").on("click",function () {
+            $(".content_day").html("");
+            $(".month_word").html(createMonthDay(1).year_month);
+            same_monthf()
+        })
+        $(".prev_month").on("click",function () {
+            $(".content_day").html("");
+            $(".month_word").html(createMonthDay(0).year_month);
+            same_monthf()
+        })
+        function same_monthf() {
+            let month =  new Date().getMonth() + 1;
+            let same_month = $(".month_word").html().indexOf(month)==-1 ?false:true;
+            if (same_month) {
+                $(".prev_month").css("visibility","hidden");
+                $(".next_month").css("visibility","visible")
+            }else{
+                $(".next_month").css("visibility","hidden");
+                $(".prev_month").css("visibility","visible");
+            }    
+        }
+        same_monthf()
+        
+    });
+</script>
+</html>
