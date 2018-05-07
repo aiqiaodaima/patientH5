@@ -15,7 +15,9 @@
 }
 .audit_word2{
     margin: 0.25rem auto 0;
-    width:21.44rem;
+    /* width:21.44rem; */
+    width:15.94rem;
+    /* width: 100%; */
     font-size:1.13rem;
     font-family:PingFangSC-Regular;
     color:rgba(51,51,51,1);

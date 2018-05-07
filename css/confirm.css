@@ -55,3 +55,28 @@
     margin-left: 1rem;
     border:none;
 }
+.confirm_text input{
+    /* width:19.5rem;
+    height:2.5rem; */
+    font-size:0.81rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(153,153,153,1);
+    line-height:1.25rem;
+    -webkit-appearance:scrollbarbutton-down;
+}
+.confirm_btn a{
+    display: block;
+    margin: 1.88rem auto 0;
+    text-align: center;
+    width:16.44rem;
+    height:2.25rem;
+    background:rgba(187,187,187,1);
+    border-radius: 0.5rem ; 
+    font-size:0.94rem;
+    font-family:PingFangSC-Medium;
+    color:rgba(255,255,255,1);
+    line-height:2.25rem;
+}
+.weui-agree__checkbox{
+    top: -1px;
+}
